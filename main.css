@@ -1,0 +1,137 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.nav
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 2% 0 2%;
+    width: 100%;
+}
+
+.nav>section
+{
+    align-content: center;
+}
+
+.nav-list
+{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.nav-item
+{
+    border: 1px solid black;
+    width: 10vh;
+    height: auto;
+    width: 100%;
+    padding: 5px;
+    align-content: center;
+}
+
+.display
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.box1
+{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    border: 1px solid red;
+}
+
+.temp
+{
+    border: 1px solid black;
+    height: 90%;
+    width: 80%;
+}
+
+.box2
+{
+    width: 40%;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    align-items: center;
+}
+
+.but
+{
+    width: 100%;
+    padding: 2%;
+    font-size: large;
+}
+
+.cards
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-wrap: wrap;
+    gap: 1em;
+    width: 100%;
+}
+
+.card
+{
+    width: 25%;
+    text-align: center;
+    padding-bottom: 2px;
+    border: 1px solid transparent;
+}
+
+.card:hover
+{
+    border: 1px solid black;
+}
+
+.card-but
+{
+    width: 60%;
+}
+
+.info
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.con1
+{
+    width: 35%;
+}
+
+.con2
+{
+    width: 10%;
+}
+
+.con3
+{
+    width: 10%;
+}
+
+.foot
+{
+    text-align: center;
+    height: auto;
+    color: white;
+    background-color: black;
+    width: auto;
+}
